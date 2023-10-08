@@ -1,0 +1,111 @@
+[
+    {
+      "id": 1,
+      "name": "Dr. John Smith",
+      "title": "Cardiologist",
+      "description": "Experienced cardiologist specializing in heart health.",
+      "image": "https://i.ibb.co/VwXYQ4v/N1c-Z5s9ke-M5-SPs-G-a-MA0-USv-MVc-Y1q9-HJHd-SNVK1-Xvo-Q.jpg",
+      "price": 200,
+      "rating": 4.7
+    },
+    {
+      "id": 2,
+      "name": "Dr. Sarah Johnson",
+      "title": "Pediatrician",
+      "description": "Dedicated pediatrician providing care for children.",
+      "image": "https://i.ibb.co/qJZJwGS/depositphotos-9626348-stock-photo-pediatrician-with-a-beautiful-baby.webp",
+      "price": 150,
+      "rating": 4.9
+    },
+    {
+      "id": 3,
+      "name": "Dr. Emily Davis",
+      "title": "Dermatologist",
+      "description": "Skin specialist offering dermatological services.",
+      "image": "https://i.ibb.co/fCt9dgK/moh-your-health-banner-760x560-2023-01-11.jpg",
+      "price": 180,
+      "rating": 4.6
+    },
+    {
+      "id": 4,
+      "name": "Dr. Michael Lee",
+      "title": "Orthopedic Surgeon",
+      "description": "Expert in orthopedic surgery and musculoskeletal care.",
+      "image": "https://i.ibb.co/7QCh29k/img-65775.jpg",
+      "price": 250,
+      "rating": 4.8
+    },
+    {
+      "id": 5,
+      "name": "Dr. Linda Adams",
+      "title": "Obstetrician/Gynecologist",
+      "description": "Specializing in women's reproductive health.",
+      "image": "https://i.ibb.co/Phjg3pP/patient-talking-to-doctor.jpg",
+      "price": 190,
+      "rating": 4.7
+    },
+    {
+      "id": 6,
+      "name": "Dr. James Wilson",
+      "title": "Neurologist",
+      "description": "Neurology expert focusing on brain and nervous system disorders.",
+      "image": "https://i.ibb.co/qWzNYs3/Homepage-Brick-1315429052.jpg",
+      "price": 220,
+      "rating": 4.5
+    },
+    {
+      "id": 7,
+      "name": "Dr. Susan Brown",
+      "title": "Psychiatrist",
+      "description": "Mental health specialist providing psychiatric care.",
+      "image": "https://i.ibb.co/H7h8gFy/Can-I-Work-in-a-Hospital-With-a-Healthcare-Management-Degree-2.jpg",
+      "price": 180,
+      "rating": 4.9
+    },
+    {
+      "id": 8,
+      "name": "Dr. Robert White",
+      "title": "Urologist",
+      "description": "Treating urinary tract and male reproductive system conditions.",
+      "image": "https://i.ibb.co/WBYfVkv/What-is-Healthcare-Management.jpg",
+      "price": 210,
+      "rating": 4.6
+    },
+    {
+      "id": 9,
+      "name": "Dr. Jennifer Clark",
+      "title": "Ophthalmologist",
+      "description": "Eye specialist offering vision and eye care services.",
+      "image": "https://i.ibb.co/T2syFHR/istockphoto-1380983332-612x612.jpg",
+      "price": 170,
+      "rating": 4.8
+    },
+    {
+      "id": 10,
+      "name": "Dr. David Taylor",
+      "title": "Dentist",
+      "description": "Providing dental care and oral health services.",
+      "image": "https://i.ibb.co/0QRmhtS/Tucson-home-health-care.jpg",
+      "price": 120,
+      "rating": 4.9
+    },
+    {
+      "id": 11,
+      "name": "Dr. Maria Martinez",
+      "title": "Family Physician",
+      "description": "Caring for individuals and families with a wide range of health needs.",
+      "image": "https://i.ibb.co/pdtghDC/2bgqjhmw-0iifqf-p8twtq.jpg",
+      "price": 160,
+      "rating": 4.7
+    },
+    {
+      "id": 12,
+      "name": "Dr. Richard Brown",
+      "title": "ENT Specialist",
+      "description": "Ear, nose, and throat specialist providing ENT services.",
+      "image": "https://i.ibb.co/SrQt3tv/images.jpg",
+      "price": 190,
+      "rating": 4.6
+    }
+  ]
+  
