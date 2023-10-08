@@ -10,6 +10,7 @@ import Home from './Pages/Home';
 import Cart from './Pages/Cart';
 import Blog from './Pages/Blog';
 import ContextData from './Context/ContextData';
+import ApplyDetails from './Pages/ApplyDetails';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path: '/blog',
         element: <Blog></Blog>
+      },
+      {
+        path: '/apply/:id',
+        element: <ApplyDetails></ApplyDetails>
       }
     ]
   },

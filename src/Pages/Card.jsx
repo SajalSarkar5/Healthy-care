@@ -1,11 +1,13 @@
 import { useContext, useState } from "react";
 import { UserContext } from "../Context/ContextData";
 import StarRatings from "react-star-ratings";
+import { Link } from "react-router-dom";
 
 
 const Card = () => {
 
     const { user } = useContext(UserContext)
+
 
     const [dataLength, setDataLength] = useState(8)
 
@@ -19,7 +21,7 @@ const Card = () => {
             </div>
             <div>
                 {
-                    user.map((category, i) =>{
+                    user.map((category, i) => {
                         return <div key={i}>
                             {/* <button className="btn">{category.category}</button> */}
                         </div>
@@ -60,7 +62,9 @@ const Card = () => {
 
                                     </div>
                                     <div className="py-4">
-                                        <button className="btn w-full bg-gradient-to-r from-sky-500 to-indigo-500 border-0 text-[#cae9ff] capitalize">Apply</button>
+                                        <Link to={`/apply/${card.id}`}>
+                                            <button className="btn w-full bg-gradient-to-r from-sky-500 to-indigo-500 border-0 text-[#cae9ff] capitalize">Apply</button>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
