@@ -3,109 +3,133 @@
       "id": 1,
       "name": "Dr. John Smith",
       "title": "Cardiologist",
-      "description": "Experienced cardiologist specializing in heart health.",
+      "description": "Primary care physicians, also known as family doctors, provide comprehensive healthcare, from check-ups to managing common conditions, building lasting patient relationships.",
       "image": "https://i.ibb.co/VwXYQ4v/N1c-Z5s9ke-M5-SPs-G-a-MA0-USv-MVc-Y1q9-HJHd-SNVK1-Xvo-Q.jpg",
       "price": 200,
-      "rating": 4.7
+      "rating": 4.7,
+      "phone": "+1 (555) 123-4567",
+      "email": "john.doe@example.com"
     },
     {
       "id": 2,
       "name": "Dr. Sarah Johnson",
       "title": "Pediatrician",
-      "description": "Dedicated pediatrician providing care for children.",
+      "description": "Emergency medicine specializes in immediate care for critical conditions, like trauma and heart attacks, offering rapid assessments and treatments.",
       "image": "https://i.ibb.co/qJZJwGS/depositphotos-9626348-stock-photo-pediatrician-with-a-beautiful-baby.webp",
       "price": 150,
-      "rating": 4.9
+      "rating": 4.9,
+      "phone": "+1 (555) 987-6543",
+      "email": "jane.smith@example.com"
     },
     {
       "id": 3,
       "name": "Dr. Emily Davis",
       "title": "Dermatologist",
-      "description": "Skin specialist offering dermatological services.",
+      "description": "Pediatricians focus on children's health, offering vaccinations, developmental assessments, and treatment for common childhood ailments.",
       "image": "https://i.ibb.co/fCt9dgK/moh-your-health-banner-760x560-2023-01-11.jpg",
       "price": 180,
-      "rating": 4.6
+      "rating": 4.6,
+      "phone": "+1 (555) 789-1234",
+      "email": "robert.johnson@example.com"
     },
     {
       "id": 4,
       "name": "Dr. Michael Lee",
       "title": "Orthopedic Surgeon",
-      "description": "Expert in orthopedic surgery and musculoskeletal care.",
+      "description": "Mental health services provide counseling, therapy, and medication management for conditions like depression and anxiety.",
       "image": "https://i.ibb.co/7QCh29k/img-65775.jpg",
       "price": 250,
-      "rating": 4.8
+      "rating": 4.8,
+      "phone": "+1 (555) 567-8901",
+      "email": "emily.brown@example.com"
     },
     {
       "id": 5,
       "name": "Dr. Linda Adams",
       "title": "Obstetrician/Gynecologist",
-      "description": "Specializing in women's reproductive health.",
+      "description": "Surgical specialties address injuries, diseases, and conditions through various surgical procedures, from minimally invasive to complex surgeries.",
       "image": "https://i.ibb.co/Phjg3pP/patient-talking-to-doctor.jpg",
       "price": 190,
-      "rating": 4.7
+      "rating": 4.7,
+      "phone": "+1 (555) 234-5678",
+      "email": "david.wilson@example.com"
     },
     {
       "id": 6,
       "name": "Dr. James Wilson",
       "title": "Neurologist",
-      "description": "Neurology expert focusing on brain and nervous system disorders.",
+      "description": "Nurses, including registered and licensed practical nurses, administer medications, monitor patients, and collaborate with healthcare teams.",
       "image": "https://i.ibb.co/qWzNYs3/Homepage-Brick-1315429052.jpg",
       "price": 220,
-      "rating": 4.5
+      "rating": 4.5,
+      "phone": "+1 (555) 678-9012",
+      "email": "sarah.miller@example.com"
     },
     {
       "id": 7,
       "name": "Dr. Susan Brown",
       "title": "Psychiatrist",
-      "description": "Mental health specialist providing psychiatric care.",
+      "description": "Geriatric medicine focuses on elderly patients, managing chronic conditions and promoting quality of life and independence.",
       "image": "https://i.ibb.co/H7h8gFy/Can-I-Work-in-a-Hospital-With-a-Healthcare-Management-Degree-2.jpg",
       "price": 180,
-      "rating": 4.9
+      "rating": 4.9,
+      "phone": "+1 (555) 345-6789",
+      "email": "michael.davis@example.com"
     },
     {
       "id": 8,
       "name": "Dr. Robert White",
       "title": "Urologist",
-      "description": "Treating urinary tract and male reproductive system conditions.",
+      "description": "Home health services provide medical care and assistance at home, aiding individuals with chronic illnesses or post-surgery recovery.",
       "image": "https://i.ibb.co/WBYfVkv/What-is-Healthcare-Management.jpg",
       "price": 210,
-      "rating": 4.6
+      "rating": 4.6,
+      "phone": "+1 (555) 890-1234",
+      "email": "lisa.taylor@example.com"
     },
     {
       "id": 9,
       "name": "Dr. Jennifer Clark",
       "title": "Ophthalmologist",
-      "description": "Eye specialist offering vision and eye care services.",
+      "description": "Medical imaging, including X-rays and MRIs, aids in diagnosing injuries and diseases, guiding treatment decisions.",
       "image": "https://i.ibb.co/T2syFHR/istockphoto-1380983332-612x612.jpg",
       "price": 170,
-      "rating": 4.8
+      "rating": 4.8,
+      "phone": "+1 (555) 456-7890",
+      "email": "william.brown@example.com"
     },
     {
       "id": 10,
       "name": "Dr. David Taylor",
       "title": "Dentist",
-      "description": "Providing dental care and oral health services.",
+      "description": "Rehabilitation services help individuals recover from injuries or disabilities, restoring independence and quality of life.",
       "image": "https://i.ibb.co/0QRmhtS/Tucson-home-health-care.jpg",
       "price": 120,
-      "rating": 4.9
+      "rating": 4.9,
+      "phone": "+1 (555) 123-9876",
+      "email": "karen.jones@example.com"
     },
     {
       "id": 11,
       "name": "Dr. Maria Martinez",
       "title": "Family Physician",
-      "description": "Caring for individuals and families with a wide range of health needs.",
+      "description": "Dental health care maintains oral health through services like cleanings, fillings, and extractions.",
       "image": "https://i.ibb.co/pdtghDC/2bgqjhmw-0iifqf-p8twtq.jpg",
       "price": 160,
-      "rating": 4.7
+      "rating": 4.7,
+      "phone": "+1 (555) 789-2345",
+      "email": "richard.wilson@example.com"
     },
     {
       "id": 12,
       "name": "Dr. Richard Brown",
       "title": "ENT Specialist",
-      "description": "Ear, nose, and throat specialist providing ENT services.",
+      "description": "Pharmaceutical services involve medication preparation and counseling by pharmacists, ensuring safe and effective drug use.",
       "image": "https://i.ibb.co/SrQt3tv/images.jpg",
       "price": 190,
-      "rating": 4.6
+      "rating": 4.6,
+      "phone": "+1 (555) 234-5678",
+      "email": "jennifer.lee@example.com"
     }
   ]
   

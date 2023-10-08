@@ -7,10 +7,10 @@ import {
 } from "react-router-dom";
 import Root from './Root/Root';
 import Home from './Pages/Home';
-import Cart from './Pages/Cart';
 import Blog from './Pages/Blog';
 import ContextData from './Context/ContextData';
 import ApplyDetails from './Pages/ApplyDetails';
+import Appointment from './Pages/Appointment';
 
 const router = createBrowserRouter([
   {
@@ -22,8 +22,8 @@ const router = createBrowserRouter([
         element: <Home></Home>
       },
       {
-        path: '/cart',
-        element: <Cart></Cart>
+        path: '/appointment',
+        element: <Appointment></Appointment>
       },
       {
         path: '/blog',
