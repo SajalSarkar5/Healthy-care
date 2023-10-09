@@ -9,7 +9,6 @@ const MedicalCenter = () => {
             <div data-aos="fade-up" className="text-[#cae9ff] w-full md:w-full lg:w-2/5 space-y-5 px-0 md:px-0 lg:px-10 text-center md:text-center lg:text-start">
                 <h2 className="text-4xl font-semibold">Medical Center</h2>
                 <p className="text-base">A medical center is a healthcare facility staffed by professionals and equipped with advanced technology, offering a wide range of services, including consultations, surgeries, diagnostic testing, and emergency care. It serves as a centralized hub for comprehensive healthcare, ensuring patients have access to various medical specialties and treatments.</p>
-                <button className="btn bg-gradient-to-r from-sky-500 to-indigo-500 text-[#cae9ff] capitalize border-0">Read More</button>
             </div>
         </div>
     );

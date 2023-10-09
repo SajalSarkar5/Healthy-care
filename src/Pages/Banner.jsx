@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { UserContext } from "../Context/ContextData";
 import 'react-slideshow-image/dist/styles.css'
 import { Fade } from "react-slideshow-image";
+import { Link } from "react-router-dom";
 
 
 
@@ -36,7 +37,9 @@ const Banner = () => {
 
                                         </div>
                                         <div className="py-3">
-                                            <button className="btn bg-gradient-to-r from-sky-500 to-indigo-500 text-[#cae9ff] capitalize border-0">Read More</button>
+                                            <Link to={`/apply/${item.id}`}>
+                                                <button className="btn bg-gradient-to-r from-sky-500 to-indigo-500 text-[#cae9ff] capitalize border-0">Read More</button>
+                                            </Link>
                                         </div>
                                         <hr />
                                     </div>
