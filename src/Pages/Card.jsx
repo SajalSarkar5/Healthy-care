@@ -26,7 +26,7 @@ const Card = () => {
 
                 {
                     user.slice(0, dataLength).map((card, i) => {
-                        return <div data-aos="fade-up" key={i}>
+                        return <div data-aos="zoom-in" key={i}>
 
 
                             <div className="card card-compact bg-[#0d3b66] shadow-xl text-[#cae9ff]">
@@ -57,7 +57,7 @@ const Card = () => {
                                     </div>
                                     <div className="py-4">
                                         <Link to={`/apply/${card.id}`}>
-                                            <button className="btn w-full bg-gradient-to-r from-sky-500 to-indigo-500 border-0 text-[#cae9ff] capitalize">Apply</button>
+                                            <button className="btn w-full bg-gradient-to-r from-sky-500 to-indigo-500 border-0 text-[#cae9ff] capitalize">Read More</button>
                                         </Link>
                                     </div>
                                 </div>
