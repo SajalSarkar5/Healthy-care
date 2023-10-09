@@ -12,8 +12,12 @@ const Footer = () => {
                         <Link to="/">
                             <button>Home</button>
                         </Link>
-                        <button>About</button>
-                        <button>Blog</button>
+                        <Link to="/about">
+                            <button>About</button>
+                        </Link>
+                        <Link to="/blog">
+                            <button>Blog</button>
+                        </Link>
                     </div>
                     <p className="text-[#cae9ff]">Copyright © 2023 - All right reserved</p>
                 </aside>

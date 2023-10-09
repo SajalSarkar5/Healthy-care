@@ -10,7 +10,7 @@ import Home from './Pages/Home';
 import Blog from './Pages/Blog';
 import ContextData from './Context/ContextData';
 import ApplyDetails from './Pages/ApplyDetails';
-import Appointment from './Pages/Appointment';
+import AboutUs from './Pages/AboutUs';
 
 const router = createBrowserRouter([
   {
@@ -22,8 +22,8 @@ const router = createBrowserRouter([
         element: <Home></Home>
       },
       {
-        path: '/appointment',
-        element: <Appointment></Appointment>
+        path: '/about',
+        element: <AboutUs></AboutUs>
       },
       {
         path: '/blog',
