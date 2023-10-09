@@ -26,7 +26,7 @@ const Card = () => {
 
                 {
                     user.slice(0, dataLength).map((card, i) => {
-                        return <div key={i}>
+                        return <div data-aos="fade-up" key={i}>
 
 
                             <div className="card card-compact bg-[#0d3b66] shadow-xl text-[#cae9ff]">

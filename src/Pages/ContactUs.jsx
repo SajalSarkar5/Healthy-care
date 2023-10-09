@@ -20,7 +20,7 @@ const ContactUs = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
                 {
                     user.slice(0, contact).map((contact, i) => {
-                        return <div key={i}>
+                        return <div data-aos="fade-up" key={i}>
 
                             <div class="relative flex flex-col rounded-xl bg-[#0d3b66] bg-clip-border shadow-md text-[#cae9ff] border-l-4">
                                 <div class="p-6">
