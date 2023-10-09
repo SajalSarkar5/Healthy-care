@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom";
 import Footer from "../Pages/Footer";
+import { Toaster } from "react-hot-toast";
 
 
 const Root = () => {
@@ -7,6 +8,7 @@ const Root = () => {
         <div>
             <div className=" ">
                 <Outlet></Outlet>
+                <Toaster/>
             </div>
         </div>
     );

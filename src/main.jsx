@@ -11,27 +11,40 @@ import Blog from './Pages/Blog';
 import ContextData from './Context/ContextData';
 import ApplyDetails from './Pages/ApplyDetails';
 import AboutUs from './Pages/AboutUs';
+import Login from './Pages/Login';
+import Register from './Pages/Register';
+import PrivateRoute from './PrivateRoute/PrivateRoute';
+import ErrorPage from './Pages/ErrorPage';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: '/',
-        element: <Home></Home>
+        element: <PrivateRoute><Home></Home></PrivateRoute>
       },
       {
         path: '/about',
-        element: <AboutUs></AboutUs>
+        element: <PrivateRoute><AboutUs></AboutUs></PrivateRoute>
       },
       {
         path: '/blog',
-        element: <Blog></Blog>
+        element: <PrivateRoute><Blog></Blog></PrivateRoute>
       },
       {
         path: '/apply/:id',
-        element: <ApplyDetails></ApplyDetails>
+        element: <PrivateRoute><ApplyDetails></ApplyDetails></PrivateRoute>
+      },
+      {
+        path: '/login',
+        element: <Login></Login>
+      },
+      {
+        path: '/register',
+        element: <Register></Register>
       }
     ]
   },

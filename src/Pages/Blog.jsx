@@ -10,6 +10,9 @@ const Blog = () => {
                 <h3 className="text-2xl font-semibold">Services</h3>
                 <h5 className="text-lg font-medium">Here are these services</h5>
             </div>
+            <div className="my-4 container mx-auto">
+                <hr />
+            </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 container mx-auto my-12">
                 <div>
                     <div data-aos="zoom-in" class="relative flex flex-col rounded-xl bg-[#0d3b66] bg-clip-border text-[#cae9ff] shadow-md h-[220px]">

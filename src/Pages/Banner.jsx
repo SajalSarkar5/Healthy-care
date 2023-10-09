@@ -24,12 +24,12 @@ const Banner = () => {
                     user.map((item, i) => {
                         return <div key={i}>
                             <div className="each-slide]">
-                                <div className="flex justify-center items-center flex-col md:flex-row lg:flex-row h-[80vh]">
-                                    <div className="flex-1 py-20 lg:px-40 space-y-3">
+                                <div className="flex justify-center items-center flex-col md:flex-row lg:flex-row lg:h-[80vh] mt-6 md:mt-0 lg:mt-0 pl-0 md:pl-10 lg:pl-0">
+                                    <div className="flex-1 lg:py-20 lg:px-40 space-y-3">
                                         <small className="text-[#cae9ff] py-1 border-b-2">Name :</small>
                                         <h5 className="text-[#cae9ff] text-lg">{item.name}</h5>
                                         <small className="text-[#cae9ff] border-b-2">Title :</small>
-                                        <h3 className="text-3xl font-medium text-[#cae9ff]">
+                                        <h3 className=" text-lg md:text-xl lg:text-3xl font-medium text-[#cae9ff]">
                                             {item.title}
                                         </h3>
                                         <div>

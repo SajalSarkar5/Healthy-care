@@ -1,7 +1,17 @@
-import { NavLink } from "react-router-dom";
+import { useContext } from "react";
+import { Link, NavLink } from "react-router-dom";
+import { UserContext } from "../Context/ContextData";
 
 
 const Header = () => {
+    const { users, logOut } = useContext(UserContext);
+
+    const handleSingOut = () => {
+        logOut()
+            .then()
+            .catch()
+    }
+
     const links = <>
         <li><NavLink to="/">Home</NavLink></li>
         <li><NavLink to="/about">About Us</NavLink></li>
@@ -27,8 +37,21 @@ const Header = () => {
                     {links}
                 </ul>
             </div>
-            <div className="navbar-end">
-                <a className="btn">Button</a>
+            <div className="navbar-end flex justify-end items-center gap-6">
+                <div className="avatar">
+                   
+                </div>
+                <div>
+                    {
+                        users ?
+                            <button onClick={handleSingOut} className="btn bg-gradient-to-r from-sky-500 to-indigo-500 border-0 text-[#cae9ff] capitalize">Sing Out</button>
+                            :
+                            <Link to="/login">
+                                <button className="btn bg-gradient-to-r from-sky-500 to-indigo-500 border-0 text-[#cae9ff] capitalize">Login</button>
+                            </Link>
+                    }
+
+                </div>
             </div>
         </div>
     );
