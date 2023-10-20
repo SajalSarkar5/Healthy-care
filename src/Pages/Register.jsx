@@ -1,14 +1,17 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Header from "../components/Header";
 import { useContext } from "react";
 import { UserContext } from "../Context/ContextData";
 import toast from "react-hot-toast";
+import GoogleLogin from "../components/GoogleLogin";
 
 
 
 const Register = () => {
 
     const { createUser } = useContext(UserContext);
+
+    const navigate = useNavigate()
 
     const handleRegister = e => {
         e.preventDefault();
@@ -41,7 +44,7 @@ const Register = () => {
 
         createUser(email, password)
             .then(result => {
-                console.log(result.user)
+                navigate('/')
             })
             .catch(error => {
                 console.log(error)
@@ -90,6 +93,7 @@ const Register = () => {
                                 <button className="btn bg-gradient-to-r from-sky-500 to-indigo-500 border-0 text-[#cae9ff] capitalize">Register</button>
                             </div>
                         </form>
+                        <div className="w-3/4 mx-auto"><GoogleLogin></GoogleLogin></div>
                         <p className="text-center pb-4 text-[#cae9ff]">Already have an account? <Link to="/login"><span className="text-cyan-400">Login</span></Link></p>
                     </div>
                 </div>

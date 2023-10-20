@@ -2,6 +2,7 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import Header from "../components/Header";
 import { useContext } from "react";
 import { UserContext } from "../Context/ContextData";
+import GoogleLogin from "../components/GoogleLogin";
 
 
 const Login = () => {
@@ -9,21 +10,19 @@ const Login = () => {
     const { singIn } = useContext(UserContext);
     const location = useLocation();
     const navigate = useNavigate();
-    console.log('location in ta login page', location)
+
 
 
     const handleLogin = e => {
         e.preventDefault();
-        console.log(e.currentTarget);
         const form = new FormData(e.currentTarget);
         const email = form.get('email')
         const password = form.get('password')
         // console.log(email, password);
         singIn(email, password)
             .then(result => {
-                console.log(result.user)
 
-                navigate(location?.state ? location.state : '/')
+                navigate('/')
 
             })
             .cath(error => {
@@ -61,9 +60,11 @@ const Login = () => {
                                 <button className="btn bg-gradient-to-r from-sky-500 to-indigo-500 border-0 text-[#cae9ff] capitalize">Login</button>
                             </div>
                         </form>
+                        <div className="w-3/4 mx-auto"><GoogleLogin></GoogleLogin></div>
                         <p className="text-center pb-4 text-[#cae9ff]">Don't have an account? <Link to="/register"><span className="text-cyan-400">Register</span></Link></p>
                     </div>
                 </div>
+
             </div>
 
 

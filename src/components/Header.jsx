@@ -14,7 +14,7 @@ const Header = () => {
 
     const links = <>
         <li><NavLink className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "text-[#cae9ff]text-lg underline" : ""
+            isPending ? "pending" : isActive ? "text-[#cae9ff] text-lg underline" : ""
         } to="/">Home</NavLink></li>
         <li><NavLink className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? "text-[#cae9ff] text-lg underline" : ""

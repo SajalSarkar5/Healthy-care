@@ -15,7 +15,7 @@ const Blog = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 container mx-auto my-12">
                 <div>
-                    <div data-aos="zoom-in" class="relative flex flex-col rounded-xl bg-[#0d3b66] bg-clip-border text-[#cae9ff] shadow-md h-[220px]">
+                    <div class="relative flex flex-col rounded-xl bg-[#0d3b66] bg-clip-border text-[#cae9ff] shadow-md h-[220px]">
                         <div class="p-6">
                             <h5 class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
                             Preventive Wellness Programs
@@ -27,7 +27,7 @@ const Blog = () => {
                     </div>
                 </div>
                 <div>
-                    <div data-aos="zoom-in" class="relative flex flex-col rounded-xl bg-[#0d3b66] bg-clip-border text-[#cae9ff] shadow-md h-[220px]">
+                    <div class="relative flex flex-col rounded-xl bg-[#0d3b66] bg-clip-border text-[#cae9ff] shadow-md h-[220px]">
                         <div class="p-6">
                             <h5 class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
                             Expert Consultations
@@ -39,7 +39,7 @@ const Blog = () => {
                     </div>
                 </div>
                 <div>
-                    <div data-aos="zoom-in" class="relative flex flex-col rounded-xl bg-[#0d3b66] bg-clip-border text-[#cae9ff] shadow-md h-[220px]">
+                    <div class="relative flex flex-col rounded-xl bg-[#0d3b66] bg-clip-border text-[#cae9ff] shadow-md h-[220px]">
                         <div class="p-6">
                             <h5 class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
                             Specialized Treatment Options
@@ -51,7 +51,7 @@ const Blog = () => {
                     </div>
                 </div>
                 <div>
-                    <div data-aos="zoom-in" class="relative flex flex-col rounded-xl bg-[#0d3b66] bg-clip-border text-[#cae9ff] shadow-md h-[220px]">
+                    <div class="relative flex flex-col rounded-xl bg-[#0d3b66] bg-clip-border text-[#cae9ff] shadow-md h-[220px]">
                         <div class="p-6">
                             <h5 class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
                             Holistic Wellness Approach
@@ -63,7 +63,7 @@ const Blog = () => {
                     </div>
                 </div>
                 <div>
-                    <div data-aos="zoom-in" class="relative flex flex-col rounded-xl bg-[#0d3b66] bg-clip-border text-[#cae9ff] shadow-md h-[220px]">
+                    <div class="relative flex flex-col rounded-xl bg-[#0d3b66] bg-clip-border text-[#cae9ff] shadow-md h-[220px]">
                         <div class="p-6">
                             <h5 class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
                             Health Screenings and Diagnostics
@@ -75,7 +75,7 @@ const Blog = () => {
                     </div>
                 </div>
                 <div>
-                    <div data-aos="zoom-in" class="relative flex flex-col rounded-xl bg-[#0d3b66] bg-clip-border shadow-md text-[#cae9ff] h-[220px]">
+                    <div class="relative flex flex-col rounded-xl bg-[#0d3b66] bg-clip-border shadow-md text-[#cae9ff] h-[220px]">
                         <div class="p-6">
                             <h5 class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
                             Nutritional Guidance
